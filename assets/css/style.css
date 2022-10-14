@@ -1,0 +1,408 @@
+@font-face {
+    font-family: gr-rg;
+    src: url("../fonts/Graphik-Regular.woff");
+}
+
+@font-face {
+    font-family: time;
+    src: url("../fonts/TiemposHeadline-Semibold.woff");
+}
+
+@font-face {
+    font-family: gr-md;
+    src: url("../fonts/Graphik-Medium.ttf");
+}
+
+@font-face {
+    font-family: the;
+    src: url("../fonts/Theinhardt-Lt.woff");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+header nav p {
+    word-spacing: .3rem;
+    font-family: gr-rg;
+}
+
+header nav {
+    display: flex;
+    justify-content: baseline;
+    justify-content: space-around;
+    padding: 3%;
+}
+
+header nav h1 {
+    font-family: time;
+    margin: -.2rem 2rem;
+    font-size: 12pt;
+}
+
+.get {
+    font-family: gr-md;
+    background-color: white;
+    border: solid black;
+    margin: -.5rem 1rem 0;
+    padding: .5rem .5rem;
+}
+
+.get:hover {
+    background-color: black;
+    color: white;
+}
+
+.one {
+    display: flex;
+    flex-direction: column;
+}
+
+.one h1 {
+    font-family: gr-rg;
+    font-size: 15pt;
+    margin: 5rem auto 1rem;
+}
+
+.tow {
+    margin-top: 2rem;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.tow p:nth-of-type(1) {
+    padding: 1rem;
+    text-align: left;
+    font-family: gr-md;
+}
+
+.tow article {
+    margin: 0 auto;
+}
+
+.tow article h1 {
+    font-family: the;
+    font-size: 30pt;
+}
+
+.tow article p {
+    color: #9FA2A7;
+}
+
+.thre {
+    display: flex;
+    margin-top: 5rem;
+
+}
+
+.imgdiv {
+    height: 27rem;
+    width: 18.75rem;
+}
+
+.thrediv h1 {
+    font-family: time;
+    margin-bottom: 2rem;
+    font-size: 30pt;
+}
+
+.thrediv h4 {
+    font-family: gr-md;
+    margin-bottom: .5rem;
+
+}
+
+.thrediv p {
+    margin: 1rem 0;
+    font-family: the;
+    color: #9FA2A7;
+    font-size: 10pt;
+}
+
+.vier {
+    padding: 2rem;
+    display: flex;
+    background-color: #e1e3e6;
+}
+
+.vierdivv {
+    width: 50%;
+}
+.vierdiv h1{
+    font-size: 20pt;
+    font-family:time ;
+}
+.vierdiv ol {
+    margin-top: .5rem;
+    font-family: the;
+    color: #848689;
+    padding-left: 2rem;
+}
+
+.vierdiv ol li {
+    font-size: 10pt;
+}
+.vierdiv p {
+font-family: the;
+padding-left: 1rem;
+color: #848689;
+margin-top: 1rem;
+font-size: 10pt;
+}
+.fiv{
+    display: flex;
+    flex-direction: column;
+}
+.fivdiv{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    width: 25rem;
+    gap: 1rem;
+    margin:  2rem auto 2rem;
+}
+.fivdiv h1{
+font-family: time;
+font-size: 30pt;
+}
+.fivdiv p{
+    font-family: the;
+    font-size: 10pt;
+    color: #9FA2A7;
+    }
+    .div28 p{
+        font-family: gr-md;
+    color: #9FA2A7;
+    font-size: 10pt;
+align-self: flex-end;
+width: 25rem;
+    }
+    
+    .div28 {
+        padding: 0 0 2rem 2rem;
+        display: flex;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        height: 15rem;
+    background-image: url("../img/28.png");
+    }
+    .imiv{
+        align-self: flex-end;
+        width: 10rem;
+        height: 6rem;
+    }
+    footer {
+      
+     border-top: solid black .0001rem;   
+     padding: 1rem 2rem;
+    }
+
+    footer h1{ 
+        font-family: time;
+        text-align: center;
+    }
+    .asdf{
+        height: 5rem;
+        width: 4rem;
+    }
+    .foodiv{
+        margin:1rem 0 ;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    .con{
+        font-family: gr-md;
+        color: #9FA2A7;
+        margin: 0 .3rem;
+    }
+    @media only screen and (min-width:950px){
+        header nav h1 {
+            font-family: time;
+            margin: -.2rem 2rem;
+            font-size: 20pt;
+        }
+        header nav  {
+            font-size: 20pt;
+        }
+        .one h1 {
+            font-family: gr-rg;
+            font-size: 25pt;
+            margin: 5rem auto 1rem;
+        }
+        .tow {
+            margin-top: 2rem;
+            display: flex;
+            flex-direction: row;
+            gap: 2rem;
+        }
+        
+        .tow p:nth-of-type(1) {
+            padding: 1rem 1rem 1rem 1rem;
+            text-align: left;
+            font-family: gr-md;
+            width: 50%;
+        }
+        
+        .tow article {
+            margin: 0 auto;
+        }
+        
+        .tow article h1 {
+            font-family: the;
+            font-size: 30pt;
+        }
+        
+        .tow article p {
+            color: #9FA2A7;
+        }
+        
+        .thre {
+            display: flex;
+            margin-top: 5rem;
+        
+        }
+        
+        .imgdiv {
+            height: 27rem;
+            width: 18.75rem;
+        }
+        
+        .thrediv h1 {
+            font-family: time;
+            margin-bottom: 1rem;
+            font-size: 40pt;
+        }
+        
+        .thrediv h4 {
+            font-family: gr-md;
+            margin-bottom: .5rem;
+            font-size: 20pt;
+        }
+        
+        .thrediv p {
+            margin: 1rem 0;
+            font-family: the;
+            color: #9FA2A7;
+            font-size: 15pt;
+        }
+        
+        .vier {
+            border-radius: 5rem;
+            padding: 2rem;
+            display: flex;
+            margin: 2rem;
+            background-color: #e1e3e6;
+        }
+        
+        .vierdivv {
+            width: 50%;
+        }
+        .vierdiv h1{
+            font-size: 50pt;
+            font-family:time ;
+        }
+        .vierdiv ol {
+            margin-top: .5rem;
+            font-family: the;
+            color: #848689;
+            padding-left: 2rem;
+        }
+        
+        .vierdiv ol li {
+            font-size: 15pt;
+        }
+        .vierdiv p {
+        font-family: the;
+        padding-left: 1rem;
+        color: #848689;
+        margin-top: 1rem;
+        font-size: 15pt;
+        }
+        .fiv{
+            display: flex;
+            flex-direction: column;
+        }
+        .fivdiv{
+            display: flex;
+            text-align: center;
+            flex-direction: column;
+            width: 25rem;
+            gap: 1rem;
+            margin:  2rem auto 2rem;
+        }
+        .fivdiv h1{
+        font-family: time;
+        font-size: 40pt;
+        }
+        .fivdiv p{
+            font-family: the;
+            font-size: 15pt;
+            color: #9FA2A7;
+            }
+            .div28 p{
+                font-family: gr-md;
+            color: #9FA2A7;
+            font-size: 15pt;
+        align-self: flex-end;
+        width: 25rem;
+            }
+            
+            .div28 {
+                padding: 0 0 2rem 2rem;
+                display: flex;
+                justify-content: space-around;
+                background-repeat: no-repeat;
+                background-size: contain;
+                background-position: center;
+                height: 15rem;
+            background-image: url("../img/28.png");
+            }
+            .imiv{
+                align-self: flex-end;
+                width: 8rem;
+                height: 6rem;
+            }
+            footer {
+            
+            border-top: solid black .0001rem;   
+            padding: 3rem 5rem;
+            }
+        
+            footer h1{ 
+                font-size: 30pt;
+                font-family: time;
+                text-align: center;
+            }
+            .asdf{
+                height: 5rem;
+                width: 4rem;
+            }
+            .foodiv{
+                margin:3rem 0 ;
+                display: flex;
+                justify-content: center;
+                align-items: flex-end;
+            }
+            .con{
+                font-size: 15pt;
+                font-family: gr-md;
+                color: #9FA2A7;
+                margin: 0 .3rem;
+            }
+            .ff{
+                font-size: 15pt;
+            }
+    }
